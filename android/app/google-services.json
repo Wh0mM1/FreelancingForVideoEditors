@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "712743587926",
+    "project_id": "freelancing-video-editor",
+    "storage_bucket": "freelancing-video-editor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712743587926:android:f05b9c5da7aeaf59112bf7",
+        "android_client_info": {
+          "package_name": "com.example.freelancing_video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712743587926-lfoto0jotbirvvlnoin9ca5dnru9elk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freelancing_video",
+            "certificate_hash": "da3e179b0f1a30260d0b1509c180f0701d61e109"
+          }
+        },
+        {
+          "client_id": "712743587926-1h5mvnobk9lgk5mljvsidhja74icm5np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAspB07uQC0RZkIG1trCGMsSMl8b9n3yDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712743587926-1h5mvnobk9lgk5mljvsidhja74icm5np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
