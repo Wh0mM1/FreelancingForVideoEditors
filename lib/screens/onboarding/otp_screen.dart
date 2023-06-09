@@ -38,9 +38,9 @@ class _OTPPageState extends State<OTPPage> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.fromLTRB(29, 0, 23, 24),
+                  padding: EdgeInsets.fromLTRB(0, 0, 50, 24),
                   child: Text(
-                    "Please enter the 4-digit verification code sent to +91 9876543210",
+                    "Please enter the 6-digit verification code",
                     style: TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.w400,
@@ -273,20 +273,20 @@ class _OTPPageState extends State<OTPPage> {
                       color: Color.fromRGBO(241, 177, 3, 1),
                       borderRadius: BorderRadius.circular(25)),
                   child: TextButton(
-                    onPressed: () async {
-                      try {
-                        PhoneAuthCredential credential =
-                            PhoneAuthProvider.credential(
-                                verificationId: LogInPage.verify,
-                                smsCode: otpVal);
+                    onPressed: () {
+                      // try {
+                      //   PhoneAuthCredential credential =
+                      //       PhoneAuthProvider.credential(
+                      //           verificationId: LogInPage.verify,
+                      //           smsCode: otpVal);
 
-                        // Sign the user in (or link) with the credential
-                        await auth.signInWithCredential(credential);
-                        Navigator.pushNamed(context, "/profilepage");
-                      } catch (e) {
-                        print("Wrong Otp");
-                      }
-                      // Navigator.pushNamed(context, "/profilepage");
+                      //   // Sign the user in (or link) with the credential
+                      //   await auth.signInWithCredential(credential);
+                      //   Navigator.pushNamed(context, "/profilepage");
+                      // } catch (e) {
+                      //   print("Wrong Otp");
+                      // }
+                      Navigator.pushNamed(context, "/profilepage");
                       print("Strin");
                       print(otpVal);
                     },

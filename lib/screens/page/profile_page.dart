@@ -54,7 +54,7 @@ class _ProfilePageState extends State<ProfilePage> {
         ],
       ),
       backgroundColor: Color.fromRGBO(10, 23, 51, 1),
-      appBar: buildAppBar(context),
+      appBar: buildAppBar(context, Icon(Icons.login)),
       body: Padding(
         padding: EdgeInsets.fromLTRB(0, 15, 0, 10),
         child: ListView(
@@ -110,7 +110,9 @@ class _ProfilePageState extends State<ProfilePage> {
                   decoration:
                       BoxDecoration(borderRadius: BorderRadius.circular(15)),
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/contactform');
+                    },
                     child: Row(
                       children: [
                         Text(

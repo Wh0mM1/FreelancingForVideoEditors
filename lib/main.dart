@@ -1,8 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:freelancing_video/screens/onboarding/contact_form.dart';
 import 'package:freelancing_video/screens/onboarding/login_screen.dart';
 import 'package:freelancing_video/screens/onboarding/onboarding_screen.dart';
 import 'package:freelancing_video/screens/onboarding/otp_screen.dart';
+import 'package:freelancing_video/screens/onboarding/rate_page.dart';
 import 'package:freelancing_video/screens/page/detailed_screen.dart';
 import 'package:freelancing_video/screens/page/profile_page.dart';
 import 'package:freelancing_video/screens/page/search_page.dart';
@@ -12,8 +15,8 @@ import 'package:freelancing_video/screens/page/splash_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   await Firebase.initializeApp();
 
   runApp(const MyApp());
@@ -57,6 +60,8 @@ class MyApp extends StatelessWidget {
         '/profilepage': (context) => ProfilePage(),
         '/showcase': (context) => ShowCasingScreen(),
         '/search': (context) => SearchScreen(),
+        '/rate': (context) => RatePage(),
+        '/contactform': (context) => ContactForm(),
       },
       // home: ProfilePage(),
     );

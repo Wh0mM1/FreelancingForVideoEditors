@@ -97,27 +97,29 @@ class _LogInPageState extends State<LogInPage> {
                   color: Color.fromRGBO(241, 177, 3, 1),
                   borderRadius: BorderRadius.circular(25)),
               child: TextButton(
-                onPressed: () async {
+                onPressed: () {
                   print("hi");
                   mobileNumber = mobileNumber;
                   print(mobileNumber);
-                  if (mobileNumber.length == 10) {
-                    await FirebaseAuth.instance.verifyPhoneNumber(
-                      phoneNumber: '+91 ' + mobileNumber,
-                      verificationCompleted:
-                          (PhoneAuthCredential credential) {},
-                      verificationFailed: (FirebaseAuthException e) {
-                        print("verror");
-                        print(e);
-                      },
-                      codeSent: (String verificationId, int? resendToken) {
-                        LogInPage.verify = verificationId;
-                        Navigator.pushNamed(context, "/otp");
-                      },
-                      codeAutoRetrievalTimeout: (String verificationId) {},
-                    );
-                  }
-                  // Navigator.pushNamed(context, '/otp');
+                  // if (mobileNumber.length == 10) {
+                  //   await FirebaseAuth.instance.verifyPhoneNumber(
+                  //     phoneNumber: '+91 ' + mobileNumber,
+                  //     verificationCompleted:
+                  //         (PhoneAuthCredential credential) {},
+                  //     verificationFailed: (FirebaseAuthException e) {
+                  //       print("verror");
+                  //       print(e);
+                  //     },
+                  //     codeSent: (String verificationId, int? resendToken) {
+                  //       setState(() {
+                  //         LogInPage.verify = verificationId;
+                  //         Navigator.pushNamed(context, "/otp");
+                  //       });
+                  //     },
+                  //     codeAutoRetrievalTimeout: (String verificationId) {},
+                  //   );
+                  // }
+                  Navigator.pushNamed(context, '/otp');
                   print("code sent");
                   // Navigator.pushNamed(context, "/otp");
                 },

@@ -72,24 +72,29 @@ class _DetailsPageState extends State<DetailsPage> {
                                 ],
                               ),
                             ),
-                            Container(
-                              height: 30.0,
-                              width: 30.0,
-                              padding: const EdgeInsets.all(8.0),
-                              decoration: BoxDecoration(
-                                color: Colors.purple,
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.purple,
-                                    blurRadius: 15,
-                                    offset: const Offset(0, 5),
-                                  ),
-                                ],
-                                borderRadius: BorderRadius.circular(8.0),
-                              ),
-                              child: Image.asset(
-                                'assets/images/heart.png',
-                                color: Colors.white,
+                            InkWell(
+                              onTap: () {
+                                Navigator.pushNamed(context, '/rate');
+                              },
+                              child: Container(
+                                height: 30.0,
+                                width: 30.0,
+                                padding: const EdgeInsets.all(8.0),
+                                decoration: BoxDecoration(
+                                  color: Colors.purple,
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.purple,
+                                      blurRadius: 15,
+                                      offset: const Offset(0, 5),
+                                    ),
+                                  ],
+                                  borderRadius: BorderRadius.circular(8.0),
+                                ),
+                                child: Image.asset(
+                                  'assets/images/heart.png',
+                                  color: Colors.white,
+                                ),
                               ),
                             )
                           ],
