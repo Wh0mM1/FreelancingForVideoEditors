@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-![WhatsApp Image 2023-06-21 at 19 19 32](https://github.com/Wh0mM1/FreelancingForVideoEditors/assets/90375499/bc49c7fe-e595-4aff-b499-82f617a46db0|width=10px)
+![WhatsApp Image 2023-06-21 at 19 19 32](https://github.com/Wh0mM1/FreelancingForVideoEditors/assets/90375499/bc49c7fe-e595-4aff-b499-82f617a46db0 | width=10px)
 ![WhatsApp Image 2023-06-21 at 19 19 32](https://github.com/Wh0mM1/FreelancingForVideoEditors/assets/90375499/62d98a70-340b-43a1-b43c-cdfc2defc22d)
 ![WhatsApp Image 2023-06-21 at 19 19 32](https://github.com/Wh0mM1/FreelancingForVideoEditors/assets/90375499/fc869c3c-cadf-40f0-b81f-3a155395494e)
 ![WhatsApp Image 2023-06-21 at 19 19 33](https://github.com/Wh0mM1/FreelancingForVideoEditors/assets/90375499/87cebb51-cc73-4e02-b50d-7246368dcfbf)
