@@ -3,6 +3,7 @@
 A new Flutter project.
 
 ## Getting Started
+![WhatsApp Image 2023-06-21 at 19 19 32](https://github.com/Wh0mM1/FreelancingForVideoEditors/assets/90375499/bc49c7fe-e595-4aff-b499-82f617a46db0)
 
 This project is a starting point for a Flutter application.
 
