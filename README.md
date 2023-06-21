@@ -8,7 +8,7 @@ Filter according to categories of videos like Gaming, Entertainment, Music, etc.
 In-app video player and description of the video for each video<br>
 Rate the editor page.<br>
 
-## Getting Started
+## UI for the Application:
 
 <p>Onboarding Pages</p>
 <img src="https://github.com/Wh0mM1/FreelancingForVideoEditors/assets/90375499/ef5560b2-d238-4cd9-a4cc-d4aa57636a80" width="250">
